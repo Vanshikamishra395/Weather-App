@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+
+    <!-- FIXED CSS FILE NAME -->
+    <link rel="stylesheet" href="Weatherstyle.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌦 Weather App</h1>
+
+    <input type="text" id="city" placeholder="Enter city name">
+    <button id="searchBtn">Search</button>
+
+    <div id="loader" class="hidden">Loading...</div>
+
+    <div id="weatherCard" class="hidden">
+        <div id="forecastContainer" class="hidden">
+    <hr>
+    <h3>5-Day Forecast</h3>
+    <div id="forecastList" class="forecast-grid"></div>
+</div>
+        <h2 id="cityName"></h2>
+        <img id="icon" />
+        <p id="temp"></p>
+        <p id="desc"></p>
+        <p id="extra"></p>
+    </div>
+
+    <p id="error" class="hidden"></p>
+</div>
+
+<!-- FIXED JS FILE NAME -->
+<script src="WeatherComplete.js"></script>
+
+</body>
+</html>
