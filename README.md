@@ -5,6 +5,8 @@
 
 An interactive weather application that provides real-time weather data using OpenWeather API.
 
+🌐 Live Demo:  https://vanshikamishra395.github.io/Weather-App/
+
 ## Features
 - Search weather by city
 - Displays temperature, humidity, wind speed
@@ -17,4 +19,4 @@ An interactive weather application that provides real-time weather data using Op
 - JavaScript
 - OpenWeather API
   
-🌐 Live Demo:  https://vanshikamishra395.github.io/Weather-App/
+
